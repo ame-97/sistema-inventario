@@ -10,7 +10,7 @@ class Producto {
 
     // Método para mostrar la información
     mostrarInformacion() {
-        console.log("----- PRUEBA ERROR  -----");
+        console.log("----- PRUEBA ERROR GIT -----");
         console.log("Código: " + this.codigo);
         console.log("Nombre: " + this.nombre);
         console.log("Precio: $" + this.precio);
