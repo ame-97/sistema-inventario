@@ -10,7 +10,7 @@ class Producto {
 
     // Método para mostrar la información
     mostrarInformacion() {
-        console.log("----- INFORMACIÓN DEL PRODUCTO -----");
+        console.log("----- PRUEBA ERROR  -----");
         console.log("Código: " + this.codigo);
         console.log("Nombre: " + this.nombre);
         console.log("Precio: $" + this.precio);
@@ -42,3 +42,4 @@ function buscarProducto(codigo) {
 
 // Realizar búsqueda
 buscarProducto("P002");
+
