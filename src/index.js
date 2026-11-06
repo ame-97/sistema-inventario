@@ -1,5 +1,5 @@
 function iniciarSistema() {
-    console.log("Sistema de inventario iniciado correctamente");
+    console.log("Sistema de inventario iniciado correctamente"
 }
 
 iniciarSistema();
