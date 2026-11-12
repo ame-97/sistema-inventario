@@ -1,10 +1,13 @@
-
 {
   "name": "sistema-inventario",
   "version": "1.0.0",
   "description": "Sistema de inventario",
   "private": true,
   "scripts": {
-    "build": "node --check src/index.js"
+    "build": "node --check src/index.js",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "vitest": "^5.1.0"
   }
 }
