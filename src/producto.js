@@ -1,6 +1,6 @@
 
 // Representación de un producto
-class Producto {
+export class Producto {
     constructor(codigo, nombre, precio, existencia) {
         this.codigo = codigo;
         this.nombre = nombre;
