@@ -5,6 +5,7 @@ on:
   push:
     branches:
       - main
+      - test/pruebas-producto
   pull_request:
     branches:
       - main
@@ -23,7 +24,10 @@ jobs:
           node-version: '20'
 
       - name: Instalar dependencias
-        run: npm install
+        run: npm ci
 
       - name: Construir proyecto
         run: npm run build
+
+      - name: Ejecutar pruebas automatizadas
+        run: npm test
