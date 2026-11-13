@@ -4,7 +4,7 @@ export class Producto {
     constructor(codigo, nombre, precio, existencia) {
         this.codigo = codigo;
         this.nombre = nombre;
-        this.precio = precio;
+        this.precio = 0;
         this.existencia = existencia;
     }
 
